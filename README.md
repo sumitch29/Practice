@@ -1,2 +1,2 @@
 # Practice
-Here i practing and polishing my coding skills
+Here I practing and polishing my coding skills
