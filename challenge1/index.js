@@ -95,6 +95,44 @@
 // }
                 // or
     
-// const billAmount = 400;
+// const billAmount = 275;
 // const tip= billAmount<=300 && billAmount>=50 ? billAmount*0.15 : billAmount*0.20;
-// console.log(`billamount is ${billAmount} and tip given will be ${tip}`);
+// console.log(`billamount is ${billAmount} and tip given will be ${tip} and total value ${billAmount + tip}`);
+
+// section 3
+// function calling function.
+
+// const cutPieces= function(fruit){
+//     return fruit*4;
+// }
+
+// function fruitProcess(apples, oranges){
+//     const applePieces=cutPieces(apples);
+//     const orangePieces=cutPieces(oranges)
+//     const juice = `juice with ${applePieces} apple and ${orangePieces} orange`;
+//     return juice;
+// }
+
+// console.log(fruitProcess(5,2))
+
+// section 3 coading challenge 1
+
+function calcAverage(matchOne, matchTwo, matchThree){
+    const average=(matchOne + matchTwo + matchThree)/3 ;
+    return average;
+}
+
+const avgDolphins = calcAverage(85, 54, 41);
+const avgKoalas = calcAverage(23, 34, 27);
+
+function checkWinner(avgDolphins, avgKoalas){
+    if(avgDolphins>=2*avgKoalas){
+        console.log('Dolphins wins the match')
+    }else if (avgKoalas>=2*avgDolphins){
+        console.log('koalas wins the match')
+    }else{
+        console.log('Better luck next time no one wins')
+    }
+}
+
+checkWinner(avgDolphins, avgKoalas);
