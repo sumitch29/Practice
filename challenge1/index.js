@@ -1,4 +1,4 @@
-// coding challenge 1 & 2
+///////////////////////////////////////////////////////////////////////// coding challenge 1 & 2
 
 // let markHeight = 1.69;
 // let markMass = 78;
@@ -19,7 +19,7 @@
 
 // console.log(`bmi of mark is ${bmiMark} and bmi of john is ${bmiJohn}`);
 
-// coding challeng 3
+///////////////////////////////////////////////////////////////////////////////// coding challeng 3
 
 // const dolPhinsOne = 96;
 // const dolPhinsTwo = 108;
@@ -82,7 +82,7 @@
 //         console.log('please enter valid day')    
 // }
 
-// coding challenge 4
+//////////////////////////////////////////////////////////////////////////////// coding challenge 4
 
 // const billAmount= 300;
 // let tip;
@@ -99,7 +99,7 @@
 // const tip= billAmount<=300 && billAmount>=50 ? billAmount*0.15 : billAmount*0.20;
 // console.log(`billamount is ${billAmount} and tip given will be ${tip} and total value ${billAmount + tip}`);
 
-// section 3
+///////////////////////////////////////////////////////////////////////// section 3
 // function calling function.
 
 // const cutPieces= function(fruit){
@@ -115,24 +115,52 @@
 
 // console.log(fruitProcess(5,2))
 
-// section 3 coading challenge 1
+///////////////////////////////////////////////////////////////////// section 3 coading challenge 1
 
-function calcAverage(matchOne, matchTwo, matchThree){
-    const average=(matchOne + matchTwo + matchThree)/3 ;
-    return average;
-}
+// function calcAverage(matchOne, matchTwo, matchThree){
+//     const average=(matchOne + matchTwo + matchThree)/3 ;
+//     return average;
+// }
 
-const avgDolphins = calcAverage(85, 54, 41);
-const avgKoalas = calcAverage(23, 34, 27);
+// const avgDolphins = calcAverage(85, 54, 41);
+// const avgKoalas = calcAverage(23, 34, 27);
 
-function checkWinner(avgDolphins, avgKoalas){
-    if(avgDolphins>=2*avgKoalas){
-        console.log('Dolphins wins the match')
-    }else if (avgKoalas>=2*avgDolphins){
-        console.log('koalas wins the match')
-    }else{
-        console.log('Better luck next time no one wins')
-    }
-}
+// function checkWinner(avgDolphins, avgKoalas){
+//     if(avgDolphins>=2*avgKoalas){
+//         console.log('Dolphins wins the match')
+//     }else if (avgKoalas>=2*avgDolphins){
+//         console.log('koalas wins the match')
+//     }else{
+//         console.log('Better luck next time no one wins')
+//     }
+// }
 
-checkWinner(avgDolphins, avgKoalas);
+// checkWinner(avgDolphins, avgKoalas);
+
+/////////////////////////////////////////////////////section 3//////coding challenge 2
+
+
+// const billAmount= 300;
+// let tip;
+// if(billAmount<=300 && billAmount>=50){
+//     tip = billAmount*0.15;
+// console.log(`billamount is ${billAmount} and tip given will be ${tip}`);
+// }else{
+//     tip = billAmount*0.20;
+//     console.log(`billamount is ${billAmount} and tip given will be ${tip}`);
+// }
+//                 or
+    
+// const billAmount = 275;
+// const tip= billAmount<=300 && billAmount>=50 ? billAmount*0.15 : billAmount*0.20;
+// console.log(`billamount is ${billAmount} and tip given will be ${tip} and total value ${billAmount + tip}`);
+
+// const calcTip = function (bill){
+//     return bill<=300 && bill>=50 ? bill * 0.15 : bill * 0.20;
+// }
+
+// const bills = [255,555,40];
+// const tips =[calcTip(bills[0]), calcTip(bills[1]), calcTip(bills[2])];
+// console.log(bills, tips)
+// const totals = [bills[0]+tips[0], bills[1]+tips[1], bills[2]+tips[2],];
+// console.log(bills, tips, totals)
